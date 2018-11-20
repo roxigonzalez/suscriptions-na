@@ -8,8 +8,12 @@
       %br
   .row.justify-content-center
     .col-8
-      = simple_form_for :suscription do |f|
+      = simple_form_for suscription do |f|
         = f.input :username
         = f.input :firstname
         = f.input :lastname
-        -# = f.input :country
+        = f.input :email
+        = f.input :tel
+        = f.input :country, priority: [ "El Salvador" ]
+        .text-right
+          = f.button :submit, "Enviar formulario", class: "btn btn-primary"

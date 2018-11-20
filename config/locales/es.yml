@@ -4,14 +4,7 @@ es:
       suscription: Suscripciones
     attributes:
       suscription:
-        firstname: Nombres
-        lastname: Apellidos
-        email: Correo electrónico
-        country: Pais
-        tel: Teléfono
-  simple_form:
-    labels:
-      suscription:
+        username: Nombre de usuario
         firstname: Nombres
         lastname: Apellidos
         email: Correo electrónico

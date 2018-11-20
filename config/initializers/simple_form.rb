@@ -152,7 +152,6 @@ SimpleForm.setup do |config|
   # config.time_zone_priority = nil
 
   # Default priority for country inputs.
-  # config.input_mappings = { /country/ => :string }
   config.country_priority =  'El Salvador'
 
   # When false, do not use translations for labels.
