@@ -1,0 +1,15 @@
+.container
+  .row
+    .col
+      %h3.text-center
+        Solicitud de inscripción de
+        %br
+        Nova Academy
+      %br
+  .row.justify-content-center
+    .col-8
+      = simple_form_for :suscription do |f|
+        = f.input :username
+        = f.input :firstname
+        = f.input :lastname
+        -# = f.input :country
